@@ -104,6 +104,5 @@ python eval_math_task.py --dataset MATH --input_file math_llama3-8b_summary --da
 
 
 ## Contact
-```
+
 If you have any questions, we encourage you to either create Github issues or get in touch with us at <zbhmint@ruc.edu.cn>.
-```
