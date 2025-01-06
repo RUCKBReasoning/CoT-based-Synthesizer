@@ -1,5 +1,5 @@
 # CoT-based-Synthesizer
-
+This repo is the official implementation of the paper "[CoT-based Synthesizer: Enhancing LLM Performance through Answer Synthesis](https://arxiv.org/abs/2501.01668)".
 
 ## Introduction
 We present **CoT-based Synthesizer**, an innovative method that leverages CoT reasoning to integrate information from multiple responses, enabling the generation of a more accurate and refined synthesis response, even when all candidate responses are flawed. We also develop an automated data generation pipeline, which facilitates the training of smaller, cost-efficient models that can enhance the integration performance of larger models effectively.
@@ -102,7 +102,19 @@ cd evaluation
 python eval_math_task.py --dataset MATH --input_file math_llama3-8b_summary --dataset_name MATH
 ```
 
-
+## Citation
+If you find our paper helpful, please cite the original paper:
+```
+@misc{zhang2025cotbasedsynthesizerenhancingllm,
+      title={CoT-based Synthesizer: Enhancing LLM Performance through Answer Synthesis}, 
+      author={Bohan Zhang and Xiaokang Zhang and Jing Zhang and Jifan Yu and Sijia Luo and Jie Tang},
+      year={2025},
+      eprint={2501.01668},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2501.01668}, 
+}
+```
 ## Contact
 
 If you have any questions, we encourage you to either create Github issues or get in touch with us at <zbhmint@ruc.edu.cn>.
