@@ -102,6 +102,9 @@ cd evaluation
 python eval_math_task.py --dataset MATH --input_file math_llama3-8b_summary --dataset_name MATH
 ```
 
+## Data Pipeline
+The python code in the ```pipeline```folder is designed for generating training data. We first use ```sampling.py``` script to generate candidate responses and then use ```synthesizer``` script to generate corresponding diverse synthesis answers. The filtered, correct responses are then utilized for training.
+
 ## Citation
 If you find our paper helpful, please cite the original paper:
 ```
