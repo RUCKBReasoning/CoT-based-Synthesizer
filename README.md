@@ -1,8 +1,15 @@
 # CoT-based-Synthesizer
+
+<p align="center">
+  |<a href="https://arxiv.org/abs/2501.01668">[📄 arXiv]</a> |
+<a href="https://huggingface.co/datasets/BoHanMint/Synthesizer-8B-math-train-data">[📊 Dataset]</a> |
+<a href="https://huggingface.co/BoHanMint/Synthesizer-8B-math">[📦 Model]</a> |
+</p>
+<hr>
+
 This repo is the official implementation of the paper "[CoT-based Synthesizer: Enhancing LLM Performance through Answer Synthesis](https://arxiv.org/abs/2501.01668)".
 
 ## Introduction
-| **[Paper](https://arxiv.org/abs/2501.01668)** | **[Model](https://huggingface.co/BoHanMint/Synthesizer-8B-math)** | **[Dataset](https://huggingface.co/datasets/BoHanMint/Synthesizer-8B-math-train-data)** |
 
 We present **CoT-based Synthesizer**, an innovative method that leverages CoT reasoning to integrate information from multiple responses, enabling the generation of a more accurate and refined synthesis response, even when all candidate responses are flawed. We also develop an automated data generation pipeline, which facilitates the training of smaller, cost-efficient models that can enhance the integration performance of larger models effectively.
 ![Overview](figure/overview.png)
