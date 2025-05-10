@@ -1,13 +1,13 @@
 # CoT-based-Synthesizer
 
+This repo is the official implementation of the paper "[CoT-based Synthesizer: Enhancing LLM Performance through Answer Synthesis](https://arxiv.org/abs/2501.01668)".
+
 <p align="center">
   |<a href="https://arxiv.org/abs/2501.01668">[📄 arXiv]</a> |
 <a href="https://huggingface.co/datasets/BoHanMint/Synthesizer-8B-math-train-data">[📊 Dataset]</a> |
 <a href="https://huggingface.co/BoHanMint/Synthesizer-8B-math">[📦 Model]</a> |
 </p>
 <hr>
-
-This repo is the official implementation of the paper "[CoT-based Synthesizer: Enhancing LLM Performance through Answer Synthesis](https://arxiv.org/abs/2501.01668)".
 
 ## Introduction
 
