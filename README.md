@@ -1,4 +1,4 @@
-# CoT-based-Synthesizer
+# [ACL 2025] CoT-based-Synthesizer
 
 This repo is the official implementation of the paper "[CoT-based Synthesizer: Enhancing LLM Performance through Answer Synthesis](https://arxiv.org/abs/2501.01668)".
 
